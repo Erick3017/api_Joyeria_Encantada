@@ -23,7 +23,7 @@ api.add_resource(InventarioResource, '/inventario',
 
 @app.router('/')
 def home():
-  return "El mejor api de la historia por CHATGPT"
+  return "El mejor api de la historia por ChatGPT"
 
 if __name__ == '__main__':
   app.run(debug=True)
